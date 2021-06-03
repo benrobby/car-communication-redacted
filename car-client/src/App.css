@@ -1,0 +1,34 @@
+.App {
+  text-align: center;
+}
+p,li,ul,ol,h1,h2{
+  padding: 0;
+  margin: 0;
+}
+li{
+  list-style: none;
+}
+.back-home {
+  position: absolute;
+  z-index: 99;
+  right: 30px;
+  bottom: 30px;
+}
+
+.logo-div {
+  height: 100vh;
+  width: 100vw;
+  z-index: 100;
+}
+
+.logo-box {
+  margin: 0;
+  position: absolute;
+  right: 50%;
+  bottom: 50%;
+  -ms-transform: translate(50%, 50%);
+  transform: translate(50%, 50%);
+}
+.logo {
+  width: 20%;
+}

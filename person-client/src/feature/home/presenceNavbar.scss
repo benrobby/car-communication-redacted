@@ -1,0 +1,45 @@
+.navbar {
+  flex: 0 1 auto;
+  height: 80px;
+
+  .profileAvatar {
+    margin-left: 18px;
+    align-self: flex-start;
+    cursor: pointer;
+  }
+
+  .verticalLine {
+    border-left: 2px solid grey;
+    height: 24px;
+    margin-left: 12px;
+    margin-right: 12px;
+    // margin-top: 10%;
+  }
+
+  .verticalLine1 {
+    border-left: 2px solid grey;
+    height: 30px;
+    margin-left: 20px;
+    margin-right: 20px;
+    align-self: center;
+    // margin-top: 10%;
+  }
+
+  .navbar-nav {
+    .MuiIconButton-root {
+
+    }
+  }
+
+  img {
+    -webkit-user-drag: none;
+    -khtml-user-drag: none;
+    -moz-user-drag: none;
+    -o-user-drag: none;
+    user-drag: none;
+  }
+
+  svg {
+    color: rgba(0, 0, 0, 0.62);
+  }
+}

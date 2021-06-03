@@ -1,0 +1,27 @@
+<html>
+    <head>
+        <style>
+            video {
+                height: 100%;
+                width: 100%;
+                transform:rotate(90deg);
+            }
+        </style>
+    </head>
+    <body>
+        <video autoplay id="video1"></video>
+        <script>
+        var video = document.querySelector("#video1");
+
+        if (navigator.mediaDevices.getUserMedia) {
+          navigator.mediaDevices.getUserMedia({ video: true })
+            .then(function (stream) {
+              video.srcObject = stream;
+            })
+            .catch(function (err0r) {
+              console.log("Something went wrong!");
+            });
+        }
+        </script>
+    </body>
+</html>

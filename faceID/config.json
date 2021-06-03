@@ -1,0 +1,15 @@
+{
+    "car_name":"gti",
+    "db_url":"REDACTED",
+    "driving_car_state": {
+        "current_passengers": {
+            "0": "demo_user_1"
+        },
+        "driving": true
+    },
+    "default_car_state": {
+        "current_passengers": {
+        },
+        "driving": false
+    }
+}

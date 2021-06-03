@@ -1,0 +1,35 @@
+
+.sidebar {
+  flex: 0 0 400px;
+  background: #e9e9e9;
+  font-size: medium;
+
+  h2 {
+    font-size: large;
+    margin: 0;
+    text-align: left;
+    margin-left: 10%;
+    font-weight: bold;
+  }
+
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+
+  .carsList {
+    margin-top: 10%;
+  }
+
+  .contacts {
+    margin-top: 10%;
+  }
+
+  .horizontalFullLine {
+    border-top: 2px solid #a3a3a3;
+    width: 100%;
+  }
+
+  .addContactButton {
+    margin-top: auto;
+  }
+}

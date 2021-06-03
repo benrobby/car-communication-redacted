@@ -1,0 +1,76 @@
+{
+  "users": {
+    "DEMO_USER": {
+      "name": "Demo User",
+      "contacts": [
+        "demo_user_1",
+        "demo_user_2",
+        "demo_user_3",
+        "demo_user_4",
+        "demo_user_5"
+      ],
+      "car": "gti",
+      "home_coord": "52.392451,12.125083",
+      "work_coord": "52.392451,13.125083",
+      "online": true,
+      "incoming_call": "demo_user_1"
+    },
+    "demo_user_1": {
+      "name": "Demo User 1",
+      "contacts": [
+        "demo_user_2"
+      ],
+      "car": "gti",
+      "online": true
+    },
+    "demo_user_3": {
+      "name": "Demo User 3",
+      "contacts": [],
+      "car": "palisade",
+      "online": true
+    },
+    "demo_user_5": {
+      "name": "Demo User 5",
+      "contacts": [],
+      "car": "palisade",
+      "online": true
+    },
+    "demo_user_4": {
+      "name": "Demo User 4",
+      "contacts": [],
+      "car": "gti",
+      "online": false
+    },
+    "demo_user_2": {
+      "name": "Demo User 2",
+      "contacts": [],
+      "car": "gti",
+      "online": false
+    }
+  },
+  "cars": {
+    "gti": {
+      "name": "Hyundai Kona",
+      "target_description": "Home",
+      "driving": false,
+      "current_coord": "52.404854,13.038334",
+      "current_target_coord": "52.392451,13.125083",
+      "speed": 30.0,
+      "current_passengers": [
+
+      ]
+    },
+    "palisade": {
+      "name": "Hyundai Palisade",
+      "target_description": "School",
+      "driving": true,
+      "current_coord": "37.576,-122.375",
+      "current_target_coord": "37.427398,-122.169612",
+      "speed": 31.0,
+      "current_passengers": [
+        "demo_user_3",
+        "demo_user_5"
+      ]
+    }
+  }
+}

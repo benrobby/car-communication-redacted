@@ -1,0 +1,25 @@
+.map-data-provider {
+  background: rgba(0,0,0,0.6);
+  display: flex;
+  justify-content: center;
+  .map-here {
+    width: 100%;
+  }
+  .overlayCarInfo {
+    position: absolute;
+    top: 0;
+    right: 0;
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 8px;
+    z-index: 1;
+  }
+  .map-disabled {
+    height: 155px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+    flex-shrink: 0;
+  }
+}
+

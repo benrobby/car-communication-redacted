@@ -1,0 +1,5 @@
+imutils==0.5.4
+numpy==1.20.3
+opencv-python==4.5.2.52
+pyttsx3==2.90
+firebase_admin

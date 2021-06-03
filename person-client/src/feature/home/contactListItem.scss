@@ -1,0 +1,21 @@
+
+.contactListItem {
+
+
+  .callMessage {
+  }
+
+  .MuiListItem-root {
+    // cursor: default;
+
+  }
+
+  .MuiListItem-root:focus-visible {
+    background-color: transparent;
+  }
+
+}
+
+.contactListItem:hover {
+  // background-color: transparent;
+}
